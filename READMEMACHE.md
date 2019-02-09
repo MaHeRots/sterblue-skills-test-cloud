@@ -3,20 +3,20 @@
 ## How will I do ?
 
 ### STEP 1 | Achieve the set up
-**Node & npm :** DONE
-**storybook :** DONE
-**Going througt the README & the files :** DONE
+- **Node & npm :** DONE
+- **storybook :** DONE
+- **Going througt the README & the files :** DONE
 
 ### STEP 2 | "Follow" some tutorials
-**Tuto 1 | First 50% :** DONE !
-**Tuto 1 | Last 50% :** In progress...
+- **Tuto 1 | First 50% :** DONE !
+- **Tuto 1 | Last 50% :** In progress...
 
 ### STEP 3 | Display the datas on the Web page
-**Mission Component :** In progress
-**Anomaly Component :** To do
-**Image Component :** To do
-**Structure Component :** To do
-**User Component :** To do
+- **Mission Component :** In progress
+- **Anomaly Component :** To do
+- **Image Component :** To do
+- **Structure Component :** To do
+- **User Component :** To do
 
 ### STEP 4 | Succed to us StoryBook and use it well
 
