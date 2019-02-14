@@ -1,13 +1,14 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-import { Mission } from "../components/mission";
+import { Mission } from "../components/mission/index.js";
 
-export const mockData1 = {
+// Mock Datas to test the fonctionalities | Export to ../components/mission/index.js
+export const mission1 = {
   "id": "LaFaimDesHaricots",
-  "executionDate": "2019-01-08T21:40:30",
+  "executionDate": "08/01/2019 - 21:40:30",
   "operators": [
     {
-      "name": "Sarah Croche",
+      "name": "SarahCroche",
       "id": "userId1"
     }
  ],
@@ -40,8 +41,8 @@ export const mockData1 = {
 
 storiesOf("Mission", module)
   .add("with styledProp1 set to true", () => (
-    <Mission data={mockData1} styleProp1={true} />
+    <Mission data={mission1} styleProp1={true} />
   ))
   .add("with styledProp1 set to false", () => (
-    <Mission data={mockData1} styleProp1={false} />
+    <Mission data={mission1} styleProp1={false} />
   ));
