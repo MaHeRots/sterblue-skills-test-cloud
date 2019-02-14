@@ -17,7 +17,6 @@ export class Structure extends React.Component {
 
     // get structures();
     // let structureList = structures.map(somewhere =><h2>{somewhere}</h2> );
-    // à l'endroit où nous voulons l'afficher : {somewhere}
 
     return(
       <div className='card'>

@@ -8,9 +8,9 @@ export class Mission extends React.Component {
     return (
       <div id='bigDiv'>
         <div className='header'>
-          <h2>{mission1.executionDate}</h2>
-          <h1>Mission - {mission1.id}</h1>
-          <h3>{mission1.operators[0].name}</h3>
+          <h2>{mission1.executionDate}</h2> //afficher la date d'execution de la mission
+          <h1>Mission - {mission1.id}</h1>  //afficher l'identifiant de la mission
+          <h3>{mission1.operators[0].name}</h3>  //afficher l'opérateur de la mission
         </div>
         <div className='block'>
           <h1 titleText='Structure'>Structures</h1>
