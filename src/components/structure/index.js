@@ -11,12 +11,12 @@ export class Structure extends React.Component {
         <h2>{mission1.structures[1].id} </h2>
         <p>Nombre d'images : {mission1.structures[1].images[].length}</p>
       </div>
-    ); */
-    /* sensé retourner le nombre d'images prisent de la structure {mission1.structures[1].images.length} ?*/
+    );
+    sensé retourner le nombre d'images prisent de la structure {mission1.structures[1].images.length} ?
 
 
-    // get structures();
-    // let structureList = structures.map(somewhere =><h2>{somewhere}</h2> );
+    get structures();
+    let structureList = structures.map(somewhere =><h2>{somewhere}</h2> );*/
 
     return(
       <div className='card'>

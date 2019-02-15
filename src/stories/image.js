@@ -1,6 +1,6 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-import { Image } from "../components/image";
+import { Image } from "../components/image/index.js";
 
 // Mock Datas to test the fonctionalities | Export to ../components/image/index.js
 const image1 = {

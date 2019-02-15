@@ -23,7 +23,7 @@ p{
 
 #bigDiv{
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .header{
@@ -52,7 +52,7 @@ p{
   -webkit-text-fill-color: transparent; */
 }
 
-#MyStructures{
+#MyStructures, #MyPictures{
   display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -68,4 +68,9 @@ p{
   -moz-box-shadow: 2px 2px 25px 0px rgba(0,0,0,0.25);
   box-shadow: 2px 2px 25px 0px rgba(0,0,0,0.25);
   border-radius: 25px;
+}
+
+.image{
+  width: 225px;
+  height: 225px;
 }
