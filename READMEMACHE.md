@@ -73,7 +73,9 @@ I wanted to do so many things like
   - Use .map to "automate" the cards displayed
   - Try different stats of a same element with StoryBook
   - Change a texte according the amount of datas in an array
+  - write the number of datas in an array
   - Do more than the mission element
+
 
 I tried not to ask for help to know what I can do by myself in a new language. I couldn't follow all the steps that I imposed me but still :
 it's sure, I will continue to learn React and master in it one day !
